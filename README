@@ -1,0 +1,53 @@
+*********************************************
+*** COMPILATION ET EXECUTION DU PROGRAMME ***
+*********************************************
+
+	- Pour compiler et executer le programme par defaut :
+	
+				 make ; bin/dictionnaire
+				 
+				 
+	- Pour compiler et executer le programme avec options :
+	
+				 make run et renseigner les informations demandées (le nombre de noeud
+				 et si l'on veut le débogage ou non)
+				 
+				 
+	- Pour compiler et executer le programme sous forme débogage :
+	
+				make run   et renseigner 1 pour le débogage quand cela est demandé.
+				Le débogage permet de récupérer dans un nouveau terminal les informations sur 
+				les processus et les tubes ouverts
+
+
+	- Pour supprimer les fichiers générés par la compilation, l'executable et les fichiers temporaires :
+				
+				make clean
+	
+	
+	- Pour créer une archive tar.gz du projet :
+				
+				make tar
+				
+				
+*********************************************
+***       ARBORESCENCE DES FICHIERS       ***
+*********************************************
+	- repertoire du projet :
+	
+				contient le makefile et le README et les dossiers src, inc et bin
+
+
+	- repertoire src :
+	
+				contient l'ensemble des fichiers .c
+		
+		 
+	- repertoire inc :
+
+				contient l'ensemble des fichiers .h
+		
+				
+	- repertoire bin :
+				
+				contient les scripts et l'ensemble des fichiers .o
